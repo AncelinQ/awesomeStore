@@ -27,6 +27,8 @@ Le code se situe dans le theme enfant, dans le fichier page-ananas.php .
 
 Les fonctions créées sont dans le fichier functions.php du theme enfant.
 
+Si besoin, les photos produits utilisés sont dans le dossier "produits_awesome_store".
+
 J’espère que cela vous convient, si vous avez des questions, n’hésitez pas à revenir vers moi.
 
 Cordialement,
