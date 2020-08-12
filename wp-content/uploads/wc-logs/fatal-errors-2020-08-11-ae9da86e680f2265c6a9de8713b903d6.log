@@ -1,0 +1,331 @@
+2020-08-11T08:50:03+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T08:50:33+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T08:51:35+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T08:51:51+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T08:52:09+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T08:52:28+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:00:53+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:03:36+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:11:42+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:19:56+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:22:09+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:25:28+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:26:06+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:26:59+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:27:38+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T09:28:00+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T11:30:00+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:32:00+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:33:53+00:00 CRITICAL syntax error, unexpected 'storefrontChildStyles' (T_STRING) dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 7
+
+2020-08-11T11:34:13+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:34:52+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:34:59+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:35:16+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:35:53+00:00 CRITICAL require(): Failed opening required '../storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:36:52+00:00 CRITICAL require(): Failed opening required 'storefront/storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:37:11+00:00 CRITICAL require(): Failed opening required 'storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:38:02+00:00 CRITICAL require(): Failed opening required 'storefront/inc/customizer/class-storefront-customizer.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.2/lib/php') dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 3
+
+2020-08-11T11:42:24+00:00 CRITICAL Uncaught Error: Call to a member function changeset_post_id() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php:29
+Stack trace:
+#0 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-admin/customize.php à la ligne 29
+
+2020-08-11T11:55:58+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:55:59+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:55:59+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:56:02+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:56:17+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:56:19+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:56:26+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:56:30+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 5
+
+2020-08-11T11:56:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:112
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php(5): Storefront_Customizer::edit_default_customizer_settings('storefront_butt...')
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-settings.php(508): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-config.php(99): require_once('/Users/ancelin/...')
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-load.php(37): require_once('/Users/ancelin/...')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/admin.php(34): require_once('/Users/ancelin/...')
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/themes.php(10): require_once('/Users/ancelin/...')
+#6 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php à la ligne 112
+
+2020-08-11T11:56:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:112
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php(5): Storefront_Customizer::edit_default_customizer_settings('storefront_butt...')
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-settings.php(508): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-config.php(99): require_once('/Users/ancelin/...')
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-load.php(37): require_once('/Users/ancelin/...')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/admin.php(34): require_once('/Users/ancelin/...')
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/themes.php(10): require_once('/Users/ancelin/...')
+#6 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php à la ligne 112
+
+2020-08-11T11:57:54+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:112
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php(5): Storefront_Customizer::edit_default_customizer_settings('storefront_butt...')
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-settings.php(508): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-config.php(99): require_once('/Users/ancelin/...')
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-load.php(37): require_once('/Users/ancelin/...')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/admin.php(34): require_once('/Users/ancelin/...')
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/themes.php(10): require_once('/Users/ancelin/...')
+#6 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php à la ligne 112
+
+2020-08-11T11:57:57+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php:112
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php(5): Storefront_Customizer::edit_default_customizer_settings('storefront_butt...')
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-settings.php(508): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-config.php(99): require_once('/Users/ancelin/...')
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-load.php(37): require_once('/Users/ancelin/...')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/admin.php(34): require_once('/Users/ancelin/...')
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-admin/themes.php(10): require_once('/Users/ancelin/...')
+#6 {main}
+  thrown dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront/inc/customizer/class-storefront-customizer.php à la ligne 112
+
+2020-08-11T15:40:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php on line 28 and at least 2 expected in /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php:403
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(28): add_action('client_dashboar...')
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Ar dans /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php à la ligne 403
+
+2020-08-11T16:14:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_uri() in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php:77
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/my-account.php(36): do_action('woocommerce_acc...')
+#6 /Users/ancelin/Documents/Sites/aweso dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php à la ligne 77
+
+2020-08-11T16:16:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_file() in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php:77
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/my-account.php(36): do_action('woocommerce_acc...')
+#6 /Users/ancelin/Documents/Sites/awesome_store dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php à la ligne 77
+
+2020-08-11T16:31:11+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 105
+
+2020-08-11T16:31:50+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 110
+
+2020-08-11T18:23:36+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 63
+
+2020-08-11T18:23:55+00:00 CRITICAL syntax error, unexpected '}', expecting end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 62
+
+2020-08-11T19:58:06+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:56
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 56
+
+2020-08-11T19:59:23+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:59
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 59
+
+2020-08-11T20:00:17+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:58
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 58
+
+2020-08-11T20:00:32+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:59
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 59
+
+2020-08-11T20:05:11+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:56
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 56
+
+2020-08-11T20:06:25+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:07:19+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:07:33+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:07:46+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:14:29+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/sto dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:14:47+00:00 CRITICAL syntax error, unexpected ''ananas_lover'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:16:51+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/sto dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:17:49+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:55
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(77): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/sto dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:18:04+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:18:18+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+
+2020-08-11T20:18:21+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 55
+

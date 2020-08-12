@@ -1,0 +1,34 @@
+2020-08-12T09:19:59+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php:58
+Stack trace:
+#0 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/woocommerce/myaccount/dashboard.php(73): include()
+#1 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/ancelin/...')
+#2 /Users/ancelin/Documents/Sites/awesome_store/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3032): wc_get_template('myaccount/dashb...', Array)
+#3 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#4 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/ancelin/Documents/Sites/awesome_store/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefro dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 58
+
+2020-08-12T09:29:10+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 100
+
+2020-08-12T09:29:38+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/ananas.php à la ligne 99
+
+2020-08-12T10:15:30+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 85
+
+2020-08-12T10:18:09+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 85
+
+2020-08-12T10:20:39+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 78
+
+2020-08-12T10:45:08+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 88
+
+2020-08-12T10:48:32+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 89
+
+2020-08-12T10:55:56+00:00 CRITICAL syntax error, unexpected '}', expecting end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 80
+
+2020-08-12T11:05:14+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 89
+
+2020-08-12T11:08:29+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 65
+
+2020-08-12T11:16:08+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 104
+
+2020-08-12T11:18:24+00:00 CRITICAL syntax error, unexpected end of file dans /Users/ancelin/Documents/Sites/awesome_store/wp-content/themes/storefront-child/functions.php à la ligne 103
+
