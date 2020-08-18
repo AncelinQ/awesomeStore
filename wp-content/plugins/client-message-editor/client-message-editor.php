@@ -59,9 +59,6 @@ class ClientMessageEditor
   {
     flush_rewrite_rules();
   }
-  function uninstall()
-  {
-  }
 
   function custom_post_type()
   {
