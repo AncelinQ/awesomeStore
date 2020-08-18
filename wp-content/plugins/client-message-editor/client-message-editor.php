@@ -46,6 +46,8 @@ class ClientMessageEditor
   function __construct()
   {
     add_action('init', array($this, 'custom_post_type'));
+    add_action('woocommerce_account_dashboard',  array($this, 'editClientMessage'));
+    add_action('woocommerce_account_dashboard',  array($this, 'displayClientMessage'));
   }
   function activate()
   {
@@ -186,9 +188,6 @@ if (class_exists('ClientMessageEditor')) {
 
 //activation 
 register_activation_hook(__FILE__, array($clientMessageEditor, 'activate'));
-
-add_action('woocommerce_account_dashboard',  array($clientMessageEditor, 'editClientMessage'));
-add_action('woocommerce_account_dashboard',  array($clientMessageEditor, 'displayClientMessage'));
 
 //deactivation 
 register_activation_hook(__FILE__, array($clientMessageEditor, 'deactivate'));
