@@ -15,7 +15,7 @@ Pour les produits, j’ai voulu approfondir les options en créant 3 catégories
 
 -J’ai fait également un exercice intermédiaire et un expert.
 
--Pour le plugin, c’est un texte prédéfini qui s’affiche, modifiable dans le code uniquement. Il s’active et se désactive dans le back office.
+-Pour le plugin, un texte prédéfini s’affiche à l'activation, puis est modifiable dans le menu lié. Il est très basique, le message créé s'enregistre dans wp_posts, puis transféré dans une nouvelle table et effacé de wp_posts, pour ne pas le mélanger aux autres posts du site et éviter que les clients y aient accès via l'url.
 
 -Enfin pour la page de formulaire Ananas, j’ai créé 2 utilisateurs afin de tester différentes possibilités,
 Admin et Michel ont un contenu qui s’affiche dans leur compte, modifiable à chaque nouvel envoi du formulaire.
