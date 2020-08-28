@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Include Style and Script files
+ *
+ * @return void
+ */
 function storefrontChildStyles()
 {
 
@@ -11,12 +16,18 @@ function storefrontChildStyles()
     'child-style',
     get_stylesheet_directory_uri() . '/style.css',
     array($parent_style),
-    wp_get_theme()->get('Version')
+    wp_get_theme()->get('Version'),
+    'all'
   );
 }
 add_action('wp_enqueue_scripts', 'storefrontChildStyles');
 
-
+/**
+ * Check if User Data Exists in wp_ananas table
+ *
+ * @param [type] $userId
+ * @return void
+ */
 function checkTable($userId)
 {
   global $wpdb;
@@ -29,6 +40,11 @@ function checkTable($userId)
   }
 }
 
+/**
+ * Send form info to the DB
+ * 
+ * @return void
+ */
 function sendAnanasForm()
 {
 
@@ -61,6 +77,11 @@ function sendAnanasForm()
   }
 }
 
+/**
+ * Display the Client's form answers in his Dashboard
+ *
+ * @return void
+ */
 function displayAnanasForm()
 {
 
@@ -94,7 +115,7 @@ function displayAnanasForm()
 
         <p><?php echo $ananas_text; ?></p>
       </div>
-<?php endif;
+  <?php endif;
   } else {
     return false;
   }
@@ -102,3 +123,15 @@ function displayAnanasForm()
 
 add_action('ananasForm', 'sendAnanasForm');
 add_action('woocommerce_account_dashboard', 'displayAnanasForm');
+
+
+function ipAddress_scripts()
+{
+  wp_enqueue_script('ip_address', get_stylesheet_directory_uri() . '/js/ip_address.js');
+  ?>
+  <button type='button' id='ipBtn'>Voir l'addresse IP</button>
+  <p id='ipAddressDisplay'></p>
+<?php
+}
+
+add_action('woocommerce_after_single_product_summary', 'ipAddress_scripts');
