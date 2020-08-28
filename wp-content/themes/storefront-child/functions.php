@@ -124,7 +124,11 @@ function displayAnanasForm()
 add_action('ananasForm', 'sendAnanasForm');
 add_action('woocommerce_account_dashboard', 'displayAnanasForm');
 
-
+/**
+ * Display IP Adress
+ *
+ * @return void
+ */
 function ipAddress_scripts()
 {
   wp_enqueue_script('ip_address', get_stylesheet_directory_uri() . '/js/ip_address.js');
