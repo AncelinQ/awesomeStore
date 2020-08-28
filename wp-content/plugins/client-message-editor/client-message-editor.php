@@ -19,16 +19,13 @@ This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
 of the License, or (at your option) any later version.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-
 Copyright 2005-2020 Automattic, Inc.
 */
 
@@ -50,6 +47,12 @@ class ClientMessageEditor
     add_action('init', array($this, 'custom_post_type'));
     add_action('woocommerce_account_dashboard',  array($this, 'displayClientMessage'));
   }
+
+  function register_scripts()
+  {
+    add_action('wp_enqueue_scripts', array($this, 'custom_stylesheet'));
+  }
+
   function activate()
   {
     flush_rewrite_rules();
@@ -131,8 +134,9 @@ class ClientMessageEditor
     register_taxonomy('domaine', array('client_message'), $args);
   }
 
-  function displayClientMessage()
+  function custom_stylesheet()
   {
+<<<<<<< Updated upstream
 
     $args = array(
       'type' => 'post',
@@ -164,14 +168,50 @@ class ClientMessageEditor
               echo $domaine->name . ' ';
             }
 
+=======
+    wp_enqueue_style('cme-style', plugins_url('/assets/css/cme-style.css', __FILE__));
+  }
+
+  function displayClientMessage()
+  {
+    $args = array(
+      'type' => 'post',
+      'post_type' => 'client_message',
+      'tax_query' =>  array(
+        array(
+          'taxonomy' => 'domaine',
+          'terms' => array('Désactivé', 'desactive'),
+          'field' => 'slug',
+          'operator' => 'NOT IN',
+        ),
+      )
+    );
+    $messages = new WP_Query($args);
+
+    if ($messages->have_posts()) { ?>
+      <?php
+      while ($messages->have_posts()) {
+        $messages->the_post();
+      ?>
+        <article class='client-message'>
+          <small>
+            <?php
+            $domaines_list = wp_get_post_terms(get_the_ID(), 'domaine');
+            foreach ($domaines_list as $domaine) {
+              echo $domaine->name . ' ';
+            }
+>>>>>>> Stashed changes
             ?>
           </small>
           <h2><?php the_title(); ?></h2>
           <p><?php the_content(); ?></p>
         </article>
+<<<<<<< Updated upstream
 
 
 
+=======
+>>>>>>> Stashed changes
 <?php }
     } else {
       return false;
@@ -182,6 +222,10 @@ class ClientMessageEditor
 
 if (class_exists('ClientMessageEditor')) {
   $clientMessage = new ClientMessageEditor();
+<<<<<<< Updated upstream
+=======
+  $clientMessage->register_scripts();
+>>>>>>> Stashed changes
 }
 
 
