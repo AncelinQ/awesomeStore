@@ -136,39 +136,6 @@ class ClientMessageEditor
 
   function custom_stylesheet()
   {
-<<<<<<< Updated upstream
-
-    $args = array(
-      'type' => 'post',
-      'post_type' => 'client_message',
-      'tax_query' =>  array(
-        array(
-          'taxonomy' => 'domaine',
-          'terms' => array('Désactivé', 'desactive'),
-          'field' => 'slug',
-          'operator' => 'NOT IN',
-        ),
-      )
-    );
-    $messages = new WP_Query($args);
-
-    if ($messages->have_posts()) { ?>
-      <?php
-      while ($messages->have_posts()) {
-        $messages->the_post();
-      ?>
-
-        <article class='client-message' style='border: 1px solid #000000; border-radius:5px; padding: 1rem;
-        margin: 1rem; text-align:center;'>
-          <small>
-            <?php
-            $domaines_list = wp_get_post_terms(get_the_ID(), 'domaine');
-
-            foreach ($domaines_list as $domaine) {
-              echo $domaine->name . ' ';
-            }
-
-=======
     wp_enqueue_style('cme-style', plugins_url('/assets/css/cme-style.css', __FILE__));
   }
 
@@ -200,18 +167,11 @@ class ClientMessageEditor
             foreach ($domaines_list as $domaine) {
               echo $domaine->name . ' ';
             }
->>>>>>> Stashed changes
             ?>
           </small>
           <h2><?php the_title(); ?></h2>
           <p><?php the_content(); ?></p>
         </article>
-<<<<<<< Updated upstream
-
-
-
-=======
->>>>>>> Stashed changes
 <?php }
     } else {
       return false;
@@ -222,10 +182,7 @@ class ClientMessageEditor
 
 if (class_exists('ClientMessageEditor')) {
   $clientMessage = new ClientMessageEditor();
-<<<<<<< Updated upstream
-=======
   $clientMessage->register_scripts();
->>>>>>> Stashed changes
 }
 
 
