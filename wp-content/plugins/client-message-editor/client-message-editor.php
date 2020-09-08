@@ -19,16 +19,13 @@ This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
 of the License, or (at your option) any later version.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-
 Copyright 2005-2020 Automattic, Inc.
 */
 
@@ -39,152 +36,158 @@ if (!defined('ABSPATH')) {
 }
 
 
-
-
+/**
+ * Client Message Editor Plugin
+ */
 class ClientMessageEditor
 {
   function __construct()
   {
+    add_action('init', array($this, 'custom_taxonomies'));
     add_action('init', array($this, 'custom_post_type'));
-    add_action('woocommerce_account_dashboard',  array($this, 'editClientMessage'));
     add_action('woocommerce_account_dashboard',  array($this, 'displayClientMessage'));
   }
+
+  function register_scripts()
+  {
+    add_action('wp_enqueue_scripts', array($this, 'custom_stylesheet'));
+  }
+
   function activate()
   {
-    $this->cmeTable_install();
-    $this->custom_post_type();
     flush_rewrite_rules();
   }
   function deactivate()
   {
     flush_rewrite_rules();
   }
-
   function custom_post_type()
   {
-    register_post_type(
-      'cm_editor',
-      array(
-
-        'label' => 'CM-Editor',
-        'menu-icon' => 'dashicons-clipboard',
-        'public' => true,
-        'show_in_rest' => true
-
-      )
-
+    $labels = array(
+      'name'                  => "Client Message Editor",
+      'singular_name'         => "Client Message",
+      'menu_name'             => "Client Message",
+      'name_admin_bar'        => 'Client Message',
+      'add_new'               => 'Ajouter un Nouveau Message',
+      'add_new_item'          => 'Ajouter un Nouveau Message',
+      'new_item'              => 'Nouveau Message',
+      'edit_item'             => 'Modifier le Message',
+      'view_item'             => 'Afficher le Message',
+      'all_items'             => 'Tous les Messages',
+      'search_items'          => 'Recherche de Messages',
+      'parent_item_colon'     => 'Message:',
+      'not_found'             => 'Pas de Message Trouvé',
+      'not_found_in_trash'    => 'Pas de Message Trouvé dans la Corbeille',
+      'featured_image'        => 'Image du Message',
+      'set_featured_image'    => 'Ajouter / Remplacer l\'Image',
+      'remove_featured_image' => 'Supprimer l\image',
     );
+
+    $args = array(
+      'labels'             => $labels,
+      'menu_icon'          => 'dashicons-welcome-write-blog',
+      'public'             => true,
+      'show_in_rest'       => true,
+      'publicly_queryable' => false,
+      'show_ui'            => true,
+      'show_in_menu'       => true,
+      'query_var'          => true,
+      'rewrite'            => true,
+      'capability_type'    => 'post',
+      'has_archive'        => false,
+      'hierarchical'       => false,
+      'menu_position'      => 5,
+      'exclude_from_search' => true,
+      'supports'           => array('title', 'editor', 'author', 'thumbnail', 'revisions', 'categories')
+    );
+    register_post_type('client_message', $args);
   }
-  function checkCMETable()
+
+  function custom_taxonomies()
   {
-    global $wpdb;
-    $table_name = "wp_client_message_editor";
-    $check = $wpdb->get_results($wpdb->prepare("SELECT title, text FROM $table_name"));
-    if ($check != false) {
-      return true;
-    } else {
-      return false;
-    }
+
+    $labels = array(
+      'name'                  => "Domaines",
+      'singular_name'         => "Domaine",
+      'menu_name'             => "Domaines",
+      'add_new_item'          => 'Ajouter un Nouveau Domaine',
+      'new_item'              => 'Nouveau Domaine',
+      'new_item_name'         => 'Renommer le Domaine',
+      'edit_item'             => 'Modifier le Domaine',
+      'edit_item'             => 'Mettre le Domaine à jour',
+      'view_item'             => 'Afficher le Domaine',
+      'all_items'             => 'Tous les Domaines',
+      'search_items'          => 'Recherche de Domaines',
+      'parent_item'           => 'Domaine Parent',
+      'parent_item_colon'     => 'Domaine Parent :'
+    );
+
+    $args = array(
+      'labels'             => $labels,
+      'show_in_rest'       => true,
+      'hierarchical'       => true,
+      'show_ui'            => true,
+      'show_admin_column'  => true,
+      'query_var'          => true,
+      'rewrite'            => array('slug' => 'domaine'),
+    );
+    register_taxonomy('domaine', array('client_message'), $args);
   }
 
-  function cmeTable_install()
+  function custom_stylesheet()
   {
-    if ($this->checkCMETable() === false) {
-      global $wpdb;
-
-      $table_name = $wpdb->prefix . "client_message_editor";
-
-      global $wpdb;
-
-      $charset_collate = $wpdb->get_charset_collate();
-
-      $sql = "CREATE TABLE $table_name (
-id int(11) NOT NULL AUTO_INCREMENT,
-time datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
-title text NOT NULL,
-text text NOT NULL,
-PRIMARY KEY  (id)
-) $charset_collate;";
-
-      require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-      dbDelta($sql);
-
-      $title = "Cher client !";
-      $text = "N'hésitez pas à venir voir nos nouveaux produits en promotion rien que pour vous !";
-
-      $table_name = $wpdb->prefix . 'client_message_editor';
-
-      $wpdb->insert(
-        $table_name,
-        array(
-          'time' => current_time('mysql'),
-          'title' => $title,
-          'text' => $text,
-        )
-      );
-    } else {
-      return false;
-    }
+    wp_enqueue_style('cme-style', plugins_url('/assets/css/cme-style.css', __FILE__));
   }
 
   function displayClientMessage()
   {
+    $args = array(
+      'type' => 'post',
+      'post_type' => 'client_message',
+      'tax_query' =>  array(
+        array(
+          'taxonomy' => 'domaine',
+          'terms' => array('Désactivé', 'desactive'),
+          'field' => 'slug',
+          'operator' => 'NOT IN',
+        ),
+      )
+    );
+    $messages = new WP_Query($args);
 
-    global $wpdb;
-
-    $table_name = "wp_client_message_editor";
-
-    $result = $wpdb->get_results("SELECT title, `text` FROM $table_name");
-
-    if ($result != false) { ?>
+    if ($messages->have_posts()) { ?>
       <?php
-      $title = $result[0]->title;
-      $text = $result[0]->text;
-      $text = stripslashes($text); ?>
-
-      <article class='client-message' style='border: 1px solid #000000; border-radius:5px; padding: 1rem; text-align:center;'>
-        <h2><?php echo $title; ?></h2>
-
-        <p><?php echo $text; ?></p>
-      </article>
-<?php } else {
-      return false;
-    }
-  }
-
-  function editClientMessage()
-  {
-    global $wpdb;
-    $table_name = "wp_posts";
-
-    $newMessage = $wpdb->get_results("SELECT post_title, post_content FROM $table_name WHERE post_type = 'cm_editor'");
-
-    if ($newMessage != false) {
-      $newTitle = $newMessage[0]->post_title;
-      $newText = $newMessage[0]->post_content;
-      $newText = stripslashes($newText);
-
-      $cmeTable = "wp_client_message_editor";
-
-      $where = ['id' => 1];
-      $data = ['title' => $newTitle, 'text' => $newText];
-
-      $wpdb->update($cmeTable, $data, $where);
-      $where = ['post_type' => "cm_editor"];
-      $wpdb->delete($table_name, $where);
+      while ($messages->have_posts()) {
+        $messages->the_post();
+      ?>
+        <article class='client-message'>
+          <small>
+            <?php
+            $domaines_list = wp_get_post_terms(get_the_ID(), 'domaine');
+            foreach ($domaines_list as $domaine) {
+              echo $domaine->name . ' ';
+            }
+            ?>
+          </small>
+          <h2><?php the_title(); ?></h2>
+          <p><?php the_content(); ?></p>
+        </article>
+<?php }
     } else {
       return false;
     }
+    wp_reset_postdata();
   }
 }
 
-
 if (class_exists('ClientMessageEditor')) {
-  $clientMessageEditor = new ClientMessageEditor();
+  $clientMessage = new ClientMessageEditor();
+  $clientMessage->register_scripts();
 }
 
-//activation 
-register_activation_hook(__FILE__, array($clientMessageEditor, 'activate'));
 
-//deactivation 
-register_activation_hook(__FILE__, array($clientMessageEditor, 'deactivate'));
+// Activation
+register_activation_hook(__FILE__, array($clientMessage, 'activate'));
+
+// Deactivation 
+register_activation_hook(__FILE__, array($clientMessage, 'deactivate'));
